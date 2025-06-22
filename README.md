@@ -160,6 +160,5 @@ app.upload.dir=uploads/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ---
 
-**Built with ❤️ for the future of architectural design**
 
-*Transform your house, transform your dreams!*
+
