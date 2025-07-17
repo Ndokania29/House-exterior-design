@@ -9,7 +9,7 @@ Ever wondered how your house would look with a modern facade, vintage charm, or 
 - **🎯 Intelligent Segmentation**: Uses Meta's Segment Anything Model (SAM) to precisely identify architectural elements
 - **🎨 Style Library**: 15+ curated design styles with 200+ material combinations
 - **🔧 Smart Classification**: Automatically detects walls, roofs, windows, doors, and more
-- **⚡ Real-time Processing**: Get professional design recommendations in under 30 seconds
+- **⚡ Real-time Processing**: Get professional design recommendations in few seconds
 - **🌐 Full-stack Solution**: Spring Boot backend with Python AI processing
 
 ## 🚀 Features
