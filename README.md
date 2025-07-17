@@ -49,7 +49,6 @@ Ever wondered how your house would look with a modern facade, vintage charm, or 
 
 ## 📊 Project Statistics
 
-- 
 - **Accuracy**: 85%+ region classification accuracy
 - **Style Options**: 15+ architectural styles
 - **Material Combinations**: 200+ curated options
