@@ -100,18 +100,46 @@ curl -X POST http://localhost:8080/api/design/process \
 ## 📁 Project Structure
 
 ```
-PROJECT_Exterior_AI_Design/
-├── Back/                          # Spring Boot backend
-│   ├── src/main/java/
-│   │   └── com/exterior/aidesign/
-│   │       ├── controller/        # REST API endpoints
-│   │       ├── service/           # Business logic
-│   │       ├── model/             # Data models
-│   │       └── repository/        # Data access layer
-│   └── pom.xml
-├── seg.py                         # Python AI processing
-├── complete_style_library.json    # Design style database
-└── sam_vit_h_4b8939.pth          # SAM model weights
+designEx/
+├── 📁 .git/                          # Git version control                  
+├── 📁 .mvn/                          # Maven wrapper files
+├── 📁 target/                        # Maven build output
+├── 📁 src/                           # Main source code
+│   └── 📁 main/
+│       ├── 📁 java/
+│       │   └── 📁 com/exteriorp/designEx/
+│       │       ├── 📁 controller/    # REST API controllers
+│       │       ├── 📁 model/         # Data models/entities
+│       │       ├── 📁 service/       # Business logic services
+│       │       ├── 📁 config/        # Configuration classes
+│       │       └── ExteriorDesignApplication.java  # Main Spring Boot app
+│       └── 📁 resources/             # Configuration files
+├── 📁 python/                        # Python AI/ML components
+│   ├── scripts/
+│   │   └── seg.py                    # Segmentation script
+│   ├── seg.py                        # Main segmentation script
+│   └── requirements.txt               # Python dependencies
+├── 📁 data/                          # Data storage
+│   └── 📁 styles/
+│       └── complete_style_library.json  # Style definitions (248KB)
+├── 📁 models/                        # AI model storage
+│   ├── sam_vit_h_4b8939.pth         # SAM model (2.4GB)
+│   └── README.txt
+├── 📁 images/                        # Image processing
+│   ├── 📁 uploads/                   # User uploaded images
+│   └── 📁 results/                   # Generated results
+├── 📁 output/                        # Output files
+├── 📁 docs/                          # Documentation
+├── 📄 pom.xml                        # Maven project configuration
+├── 📄 seg.py                         # Main segmentation script (root)
+├── 📄 run.bat                        # Windows run script
+├── 📄 run.sh                         # Linux/Mac run script
+├── 📄 Procfile                       # Heroku deployment
+├── 📄 system.properties              # System configuration
+├── 📄 img.png                        # Sample image
+├── 📄 README.md                      # Project documentation
+├── 📄 HELP.md                        # Help documentation
+└── 📄 LICENSE                        # License file
 ```
 
 ## 🎨 Available Styles
@@ -125,13 +153,7 @@ PROJECT_Exterior_AI_Design/
 - **Colonial**: Traditional, refined
 - **Contemporary**: Current trends
 - **Art Deco**: Geometric, luxurious
-- **Craftsman**: Handcrafted details
-- **Tudor**: English heritage
-- **Victorian**: Ornate, detailed
-- **Ranch**: Single-story, open
-- **Cape Cod**: Coastal, cozy
-- **Spanish**: Mediterranean influence
-
+  
 ## 🔧 Configuration
 
 ### Application Properties
